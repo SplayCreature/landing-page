@@ -57,6 +57,7 @@ h1 {
 a, .text {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .hero {
@@ -114,3 +115,70 @@ a, .text {
     border-color: #3882F6;
     border-radius: 8px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.quote_text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    max-width: 1000px;
+}
+
+.sig, .call {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 300px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 12px;
+}
+
+.text_action {
+   display: flex;
+   flex-direction: column;
+   margin-right: auto;
+   margin-left: 100px;
+   padding: 20px;
+}
+
+.call {
+    color: #F9FAF8;
+    margin-bottom: -5px;
+}
+
+.small {
+    color: #E5E7EB;
+}
+
+.action button {
+    margin-right: 50px;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+    
